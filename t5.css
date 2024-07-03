@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fceabb, #3494e6); /* Changed background gradient colors */
+}
+
+.container {
+    text-align: center;
+    background: #f0f0f0; /* Changed background color to light gray */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3494e6; /* Changed heading color */
+}
+
+.search-box {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #3494e6; /* Changed button background color */
+    color: white;
+}
+
+button:hover {
+    background: #2779bd; /* Darker shade for button hover */
+}
+
+.weather-info {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333333;
+}
